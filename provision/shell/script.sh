@@ -22,8 +22,6 @@ apt-get update
 
 # 패키지 설치
 ## Java 설치
-apt-get install -y oracle-java7-set-default
-update-java-alternatives -s java-7-oracle
 cp /vagrant/provision/shell/.bashrc /home/vagrant
 
 ## Maven 설치
